@@ -1,16 +1,103 @@
-# React + Vite
+# Meeting Cost Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart meeting planning tool that helps teams estimate meeting costs based on participant hourly rates, meeting duration, and agenda quality.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Meeting Cost Calculator Live App](https://meeting-cost-calculator-theta.vercel.app/?utm_source=chatgpt.com)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Add and remove participants
+* Calculate total meeting cost automatically
+* Smart recommendation system based on agenda and cost
+* Save meeting history
+* Persistent data using localStorage
+* Fully responsive modern UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+* React
+* Vite
+* Tailwind CSS
+* LocalStorage
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/meeting-cost-calculator.git
+```
+
+Go to project folder:
+
+```bash
+cd meeting-cost-calculator
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Build Project
+
+```bash
+npm run build
+```
+
+---
+
+## Project Structure
+
+```txt
+src/
+ ├── components/
+ ├── utils/
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+## Functionalities
+
+### Part A
+
+* Add participants
+* Add hourly cost
+* Set meeting duration
+* Auto calculate total meeting expense
+
+### Part B
+
+* Agenda-based meeting recommendation
+* Detect unclear or expensive meetings
+
+### Part C
+
+* Save meetings
+* Persistent meeting history using localStorage
+
+---
+
+## Author
+
+Sai Chandan Gundaboina
